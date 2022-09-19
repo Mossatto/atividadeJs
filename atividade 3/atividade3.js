@@ -1,5 +1,5 @@
 alert('Programa para calcular a área e o perímetro de uma circunferência')
-let raio = prompt("insira o raio da circunferência")
+let raio = number(prompt("insira o raio da circunferência"))
 const pi = 3.14
 let areaCirculo = pi * raio**2
 let perimetroCirculo = (2*pi) * raio
